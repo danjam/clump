@@ -18,7 +18,6 @@
     },
     "require-dev": {
         "ext-ast": "*",
-        "jakub-onderka/php-parallel-lint": "^1.0",
         "neronmoon/scriptsdev": "^0.1.4",
         "php-coveralls/php-coveralls": "^2.1",
         "phpmd/phpmd": "^2.6",
@@ -45,7 +44,6 @@
         "scripts-dev": {
             "validate-composer": "@composer validate --strict",
             "security-check": "@php vendor/bin/security-checker security:check composer.lock",
-            "lint": "vendor/bin/parallel-lint src tests",
             "tests": "vendor/bin/phpunit",
             "phpcs": "vendor/bin/phpcs",
             "phpmnd": "vendor/bin/phpmnd src",
@@ -55,7 +53,6 @@
             "qa": [
                 "@validate-composer",
                 "@security-check",
-                "@lint",
                 "@tests",
                 "@phpcs",
                 "@phpmnd",
