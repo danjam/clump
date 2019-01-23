@@ -23,4 +23,4 @@ script:
   - vendor/bin/phpcpd --names=*.php --fuzzy src tests
   - vendor/bin/phpstan analyse
 
-after_success: travis_retry vendor/bin/coveralls -v
+after_success: travis_retry vendor/bin/php-coveralls -v
