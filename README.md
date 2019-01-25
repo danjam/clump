@@ -5,4 +5,4 @@
 > 
 > A compacted mass or lump of something.
 
-WIP
+**WIP** small collection class with a few surprises. Real docs soon.
