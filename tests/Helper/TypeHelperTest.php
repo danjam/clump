@@ -10,6 +10,8 @@ use PHPUnit\Framework\TestCase;
  * Class TypeHelperTest
  *
  * @package danjam\Clump\tests\Helper
+ *
+ * @SuppressWarnings(StaticAccess)
  */
 class TypeHelperTest extends TestCase
 {
